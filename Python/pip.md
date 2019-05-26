@@ -1,17 +1,34 @@
-# Pip Usage
+# pip
 
-Here are a couple Pip commands to get you started. To install a Python package:
+macOS comes with Python so there's a chance `pip` is already installed on your machine.
+
+## Installation
+
+    $ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+    $ sudo python get-pip.py
+
+To verify `pip` is installed properly run
+
+    $ pip --version
+
+If it returns a version `pip` was successfully installed.
+
+## Usage
+
+Here are a few `pip` commands to get you started.
+
+Install a Python package
 
     $ pip install <package>
 
-To upgrade a package:
+Upgrade a package
 
     $ pip install --upgrade <package>
 
-To see what's installed:
+See what's installed
 
     $ pip freeze
 
-To uninstall a package:
+Uninstall a package
 
     $ pip uninstall <package>
